@@ -1886,7 +1886,7 @@ class PluginUpdater {
      * @param {module:PluginUpdater~comparator} [comparator] - comparator that determines if there is an update. If not provided uses {@link module:PluginUpdater.defaultComparator}.
      */
     static async checkForUpdate(pluginName, currentVersion, updateURL, comparator) {
-        let updateLink = "https://raw.githubusercontent.com/PluckLion/BDLibrary/main/release/0PluginLibrary.plugin.js" + pluginName + "/" + pluginName + ".plugin.js";
+        let updateLink = "https://raw.githubusercontent.com/dgmwheeler/extraplugins/main/release/0PluginLibrary.plugin.js" + pluginName + "/" + pluginName + ".plugin.js";
         if (updateURL) updateLink = updateURL;
         if (typeof(comparator) != "function") comparator = this.defaultComparator;
         this.setPlugin(pluginName, updateLink, currentVersion, comparator);
