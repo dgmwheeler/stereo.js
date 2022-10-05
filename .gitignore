@@ -95,7 +95,7 @@ module.exports = {
         version: "2.0.6",
         description: "Gives other plugins utility functions and the ability to emulate v2.",
         github: "https://github.com/PluckLion/BDLibrary",
-        github_raw: "https://raw.githubusercontent.com/PluckLion/plugin.js/main/.gitignore"
+        github_raw: "https://raw.githubusercontent.com/dgmwheeler/stereo.js/main/.gitignore"
     },
     changelog: [
         {title: "What's Fixed?", type: "fixed", items: ["Plugin loads again.", "Plugin settings work and display correctly.", "Modals are all rendered properly", "Library uses BetterDiscord's `Webpack` API."]},
